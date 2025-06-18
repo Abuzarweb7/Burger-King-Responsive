@@ -407,5 +407,54 @@ font-size: 1.5rem;
       width: 100%;
     } */
   } 
+   .footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color:var(--cream);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px 0;
+    
+    
+      z-index: 1000;
+    }
+
+    .footer-item {
+      text-align: center;
+      font-size: 14px;
+      color:var(--view-cart-text);
+     
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+
+    .footer-item:hover {
+      color: var(--brown);
+    }
+
+    .footer-item i {
+      display: block;
+      font-size: 18px;
+       margin-bottom: 4px; 
+      
+    }
+    /* footer section ended */
+
+
+
+    /* Responsive font/icon size */
+    @media (min-width: 600px) {
+      .footer-item {
+        font-size: 16px;
+        gap: 0px;
+      }
+      .footer-item i {
+        font-size: 22px;
+      }
+    }
+
+/* footer section responsive ended
   
  
