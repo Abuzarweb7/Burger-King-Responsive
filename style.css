@@ -178,7 +178,7 @@ color: var(--main-color);
   }
 
   .order-head {
-    display: none;
+font-size: 2rem;
   }
 
   .order-pick,
@@ -390,7 +390,7 @@ font-size: 1.5rem;
     /* foter sec ended */
 
     /* copy-right-sec */
-.copyright{
+/* .copyright{
   background-color: var(--main-color);
   height: 50px;
   display: flex;
@@ -400,9 +400,9 @@ font-size: 1.5rem;
 .copyright p{
   font-size: 1.5rem;
 color: var(--main-btn-text);}
-  @media (max-width: 600px) {
+  @media (max-width: 764px) {
     .copyright {
       font-size: 12px;
       padding: 12px 8px;
     }
-  }
+  } */
