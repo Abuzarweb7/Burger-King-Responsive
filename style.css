@@ -166,7 +166,7 @@ background-color: var(--backgrund--color);
 .order-delivery{
     background-color:var(--backgrund--color);
 color: var(--main-color);
-    border-color:#737395;
+    border: 1px solid var(--view-cart-text);
 }
 
 
@@ -178,7 +178,7 @@ color: var(--main-color);
   }
 
   .order-head {
-    font-size: 2rem;
+    display: none;
   }
 
   .order-pick,
@@ -357,3 +357,52 @@ max-width: 590px;
       font-size: 1.5rem;
       color: var(--secondry-btn-text);
     }
+
+   /* card sec ended */
+    /* foter sec :start */
+   /* footer section :started */
+     .foter-sec{
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 80px;
+    }
+.foter-img img{
+  width: 406px;
+}
+
+
+
+
+
+
+    .socail-img img{
+      width: 300px;
+      background-color: var(--antiquewhite);
+    }
+    .foter-head{
+      font-size: 4rem;
+    }
+    .text{
+font-size: 1.5rem;
+    }
+    /* foter sec ended */
+
+    /* copy-right-sec */
+.copyright{
+  background-color: var(--main-color);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copyright p{
+  font-size: 1.5rem;
+color: var(--main-btn-text);}
+  @media (max-width: 600px) {
+    .copyright {
+      font-size: 12px;
+      padding: 12px 8px;
+    }
+  }
